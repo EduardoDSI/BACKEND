@@ -1,0 +1,931 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\FRONT-BACK\\WIFIHOME\\ApiWeb\\ApiWeb.csproj": {}
+  },
+  "projects": {
+    "C:\\FRONT-BACK\\WIFIHOME\\ApiWeb\\ApiWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FRONT-BACK\\WIFIHOME\\ApiWeb\\ApiWeb.csproj",
+        "projectName": "ApiWeb",
+        "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\ApiWeb\\ApiWeb.csproj",
+        "packagesPath": "C:\\Users\\locas\\.nuget\\packages\\",
+        "outputPath": "C:\\FRONT-BACK\\WIFIHOME\\ApiWeb\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\locas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\FRONT-BACK\\WIFIHOME\\Bussnies\\Bussnies.csproj": {
+                "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\Bussnies\\Bussnies.csproj"
+              },
+              "C:\\FRONT-BACK\\WIFIHOME\\IBussnies\\IBussnies.csproj": {
+                "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\IBussnies\\IBussnies.csproj"
+              },
+              "C:\\FRONT-BACK\\WIFIHOME\\UtilAutomapper\\UtilAutomapper.csproj": {
+                "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\UtilAutomapper\\UtilAutomapper.csproj"
+              },
+              "C:\\FRONT-BACK\\WIFIHOME\\UtilSecurity\\UtilSecurity.csproj": {
+                "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\UtilSecurity\\UtilSecurity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FRONT-BACK\\WIFIHOME\\BDModel\\BDModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FRONT-BACK\\WIFIHOME\\BDModel\\BDModel.csproj",
+        "projectName": "BDModel",
+        "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\BDModel\\BDModel.csproj",
+        "packagesPath": "C:\\Users\\locas\\.nuget\\packages\\",
+        "outputPath": "C:\\FRONT-BACK\\WIFIHOME\\BDModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\locas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FRONT-BACK\\WIFIHOME\\Bussnies\\Bussnies.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FRONT-BACK\\WIFIHOME\\Bussnies\\Bussnies.csproj",
+        "projectName": "Bussnies",
+        "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\Bussnies\\Bussnies.csproj",
+        "packagesPath": "C:\\Users\\locas\\.nuget\\packages\\",
+        "outputPath": "C:\\FRONT-BACK\\WIFIHOME\\Bussnies\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\locas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\FRONT-BACK\\WIFIHOME\\BDModel\\BDModel.csproj": {
+                "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\BDModel\\BDModel.csproj"
+              },
+              "C:\\FRONT-BACK\\WIFIHOME\\IBussnies\\IBussnies.csproj": {
+                "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\IBussnies\\IBussnies.csproj"
+              },
+              "C:\\FRONT-BACK\\WIFIHOME\\IRepository\\IRepository.csproj": {
+                "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\IRepository\\IRepository.csproj"
+              },
+              "C:\\FRONT-BACK\\WIFIHOME\\IServices\\IServices.csproj": {
+                "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\IServices\\IServices.csproj"
+              },
+              "C:\\FRONT-BACK\\WIFIHOME\\Models\\Models.csproj": {
+                "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\Models\\Models.csproj"
+              },
+              "C:\\FRONT-BACK\\WIFIHOME\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\Repository\\Repository.csproj"
+              },
+              "C:\\FRONT-BACK\\WIFIHOME\\Services\\Services.csproj": {
+                "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\Services\\Services.csproj"
+              },
+              "C:\\FRONT-BACK\\WIFIHOME\\UtilAutomapper\\UtilAutomapper.csproj": {
+                "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\UtilAutomapper\\UtilAutomapper.csproj"
+              },
+              "C:\\FRONT-BACK\\WIFIHOME\\UtilConstants\\UtilConstants.csproj": {
+                "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\UtilConstants\\UtilConstants.csproj"
+              },
+              "C:\\FRONT-BACK\\WIFIHOME\\UtilSecurity\\UtilSecurity.csproj": {
+                "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\UtilSecurity\\UtilSecurity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FRONT-BACK\\WIFIHOME\\IBussnies\\IBussnies.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FRONT-BACK\\WIFIHOME\\IBussnies\\IBussnies.csproj",
+        "projectName": "IBussnies",
+        "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\IBussnies\\IBussnies.csproj",
+        "packagesPath": "C:\\Users\\locas\\.nuget\\packages\\",
+        "outputPath": "C:\\FRONT-BACK\\WIFIHOME\\IBussnies\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\locas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\FRONT-BACK\\WIFIHOME\\BDModel\\BDModel.csproj": {
+                "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\BDModel\\BDModel.csproj"
+              },
+              "C:\\FRONT-BACK\\WIFIHOME\\Models\\Models.csproj": {
+                "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FRONT-BACK\\WIFIHOME\\IRepository\\IRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FRONT-BACK\\WIFIHOME\\IRepository\\IRepository.csproj",
+        "projectName": "IRepository",
+        "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\IRepository\\IRepository.csproj",
+        "packagesPath": "C:\\Users\\locas\\.nuget\\packages\\",
+        "outputPath": "C:\\FRONT-BACK\\WIFIHOME\\IRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\locas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\FRONT-BACK\\WIFIHOME\\BDModel\\BDModel.csproj": {
+                "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\BDModel\\BDModel.csproj"
+              },
+              "C:\\FRONT-BACK\\WIFIHOME\\Models\\Models.csproj": {
+                "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FRONT-BACK\\WIFIHOME\\IServices\\IServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FRONT-BACK\\WIFIHOME\\IServices\\IServices.csproj",
+        "projectName": "IServices",
+        "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\IServices\\IServices.csproj",
+        "packagesPath": "C:\\Users\\locas\\.nuget\\packages\\",
+        "outputPath": "C:\\FRONT-BACK\\WIFIHOME\\IServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\locas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FRONT-BACK\\WIFIHOME\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FRONT-BACK\\WIFIHOME\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\locas\\.nuget\\packages\\",
+        "outputPath": "C:\\FRONT-BACK\\WIFIHOME\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\locas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FRONT-BACK\\WIFIHOME\\Repository\\Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FRONT-BACK\\WIFIHOME\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\locas\\.nuget\\packages\\",
+        "outputPath": "C:\\FRONT-BACK\\WIFIHOME\\Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\locas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\FRONT-BACK\\WIFIHOME\\BDModel\\BDModel.csproj": {
+                "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\BDModel\\BDModel.csproj"
+              },
+              "C:\\FRONT-BACK\\WIFIHOME\\IRepository\\IRepository.csproj": {
+                "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\IRepository\\IRepository.csproj"
+              },
+              "C:\\FRONT-BACK\\WIFIHOME\\Models\\Models.csproj": {
+                "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\Models\\Models.csproj"
+              },
+              "C:\\FRONT-BACK\\WIFIHOME\\UtilConstants\\UtilConstants.csproj": {
+                "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\UtilConstants\\UtilConstants.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FRONT-BACK\\WIFIHOME\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FRONT-BACK\\WIFIHOME\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\locas\\.nuget\\packages\\",
+        "outputPath": "C:\\FRONT-BACK\\WIFIHOME\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\locas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FRONT-BACK\\WIFIHOME\\UtilAutomapper\\UtilAutomapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FRONT-BACK\\WIFIHOME\\UtilAutomapper\\UtilAutomapper.csproj",
+        "projectName": "UtilAutomapper",
+        "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\UtilAutomapper\\UtilAutomapper.csproj",
+        "packagesPath": "C:\\Users\\locas\\.nuget\\packages\\",
+        "outputPath": "C:\\FRONT-BACK\\WIFIHOME\\UtilAutomapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\locas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\FRONT-BACK\\WIFIHOME\\BDModel\\BDModel.csproj": {
+                "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\BDModel\\BDModel.csproj"
+              },
+              "C:\\FRONT-BACK\\WIFIHOME\\Models\\Models.csproj": {
+                "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FRONT-BACK\\WIFIHOME\\UtilConstants\\UtilConstants.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FRONT-BACK\\WIFIHOME\\UtilConstants\\UtilConstants.csproj",
+        "projectName": "UtilConstants",
+        "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\UtilConstants\\UtilConstants.csproj",
+        "packagesPath": "C:\\Users\\locas\\.nuget\\packages\\",
+        "outputPath": "C:\\FRONT-BACK\\WIFIHOME\\UtilConstants\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\locas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FRONT-BACK\\WIFIHOME\\UtilSecurity\\UtilSecurity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FRONT-BACK\\WIFIHOME\\UtilSecurity\\UtilSecurity.csproj",
+        "projectName": "UtilSecurity",
+        "projectPath": "C:\\FRONT-BACK\\WIFIHOME\\UtilSecurity\\UtilSecurity.csproj",
+        "packagesPath": "C:\\Users\\locas\\.nuget\\packages\\",
+        "outputPath": "C:\\FRONT-BACK\\WIFIHOME\\UtilSecurity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\locas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

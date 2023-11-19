@@ -1,0 +1,7 @@
+/////////////////MAPEO SQL SERVER///////////////////////
+
+Scaffold-DbContext "Data Source=LAPTOP-OIAVDFE6\SQLEXPRESS;Initial Catalog=WIFI_HOME;Integrated Security=True;Trusted_Connection=true;Trust Server Certificate=true" Microsoft.EntityFrameworkCore.SqlServer -OutPutDir DBWifihome -Context _wifihomeContext -Force
+
+Scaffold-DbContext "Data Source=LAPTOP-OIAVDFE6\SQLEXPRESS;Initial Catalog=WIFIHOME;Integrated Security=True;Trusted_Connection=true;Trust Server Certificate=true" Microsoft.EntityFrameworkCore.SqlServer -OutPutDir DBWifihome -Context _wifihomeContext -Force
+
+
